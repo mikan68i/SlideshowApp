@@ -12,6 +12,13 @@
 		1ACE67D0220C46B50004A268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67CE220C46B50004A268 /* Main.storyboard */; };
 		1ACE67D2220C46B70004A268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67D1220C46B70004A268 /* Assets.xcassets */; };
 		1ACE67D5220C46B70004A268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67D3220C46B70004A268 /* LaunchScreen.storyboard */; };
+		1ACE67DD220C479E0004A268 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE67DC220C479E0004A268 /* ResultViewController.swift */; };
+		1ACE67DF220C5BD20004A268 /* ゴロニャン.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67DE220C5BD20004A268 /* ゴロニャン.jpg */; };
+		1ACE67E1220C5BD80004A268 /* あくび.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67E0220C5BD80004A268 /* あくび.JPG */; };
+		1ACE67E3220C5BDE0004A268 /* ドラえにゃん.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67E2220C5BDE0004A268 /* ドラえにゃん.jpeg */; };
+		1ACE67E5220C5BE40004A268 /* 集合.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67E4220C5BE40004A268 /* 集合.png */; };
+		1ACE67E7220C5BE90004A268 /* あご.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67E6220C5BE90004A268 /* あご.jpeg */; };
+		1ACE67E9220C5BEE0004A268 /* こてり.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE67E8220C5BEE0004A268 /* こてり.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		1ACE67D1220C46B70004A268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ACE67D4220C46B70004A268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ACE67D6220C46B70004A268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACE67DC220C479E0004A268 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		1ACE67DE220C5BD20004A268 /* ゴロニャン.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴロニャン.jpg"; sourceTree = "<group>"; };
+		1ACE67E0220C5BD80004A268 /* あくび.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "あくび.JPG"; sourceTree = "<group>"; };
+		1ACE67E2220C5BDE0004A268 /* ドラえにゃん.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ドラえにゃん.jpeg"; sourceTree = "<group>"; };
+		1ACE67E4220C5BE40004A268 /* 集合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集合.png"; sourceTree = "<group>"; };
+		1ACE67E6220C5BE90004A268 /* あご.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "あご.jpeg"; sourceTree = "<group>"; };
+		1ACE67E8220C5BEE0004A268 /* こてり.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "こてり.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,7 @@
 		1ACE67BE220C46B50004A268 = {
 			isa = PBXGroup;
 			children = (
+				1ACE67DC220C479E0004A268 /* ResultViewController.swift */,
 				1ACE67C9220C46B50004A268 /* SlideshowApp */,
 				1ACE67C8220C46B50004A268 /* Products */,
 			);
@@ -54,6 +69,12 @@
 		1ACE67C9220C46B50004A268 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				1ACE67DE220C5BD20004A268 /* ゴロニャン.jpg */,
+				1ACE67E0220C5BD80004A268 /* あくび.JPG */,
+				1ACE67E2220C5BDE0004A268 /* ドラえにゃん.jpeg */,
+				1ACE67E4220C5BE40004A268 /* 集合.png */,
+				1ACE67E6220C5BE90004A268 /* あご.jpeg */,
+				1ACE67E8220C5BEE0004A268 /* こてり.jpg */,
 				1ACE67CA220C46B50004A268 /* AppDelegate.swift */,
 				1ACE67CC220C46B50004A268 /* ViewController.swift */,
 				1ACE67CE220C46B50004A268 /* Main.storyboard */,
@@ -122,9 +143,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACE67E9220C5BEE0004A268 /* こてり.jpg in Resources */,
+				1ACE67E1220C5BD80004A268 /* あくび.JPG in Resources */,
 				1ACE67D5220C46B70004A268 /* LaunchScreen.storyboard in Resources */,
+				1ACE67E7220C5BE90004A268 /* あご.jpeg in Resources */,
 				1ACE67D2220C46B70004A268 /* Assets.xcassets in Resources */,
+				1ACE67E5220C5BE40004A268 /* 集合.png in Resources */,
 				1ACE67D0220C46B50004A268 /* Main.storyboard in Resources */,
+				1ACE67DF220C5BD20004A268 /* ゴロニャン.jpg in Resources */,
+				1ACE67E3220C5BDE0004A268 /* ドラえにゃん.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,7 @@
 			files = (
 				1ACE67CD220C46B50004A268 /* ViewController.swift in Sources */,
 				1ACE67CB220C46B50004A268 /* AppDelegate.swift in Sources */,
+				1ACE67DD220C479E0004A268 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
