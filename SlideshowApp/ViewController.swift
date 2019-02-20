@@ -76,8 +76,14 @@ class ViewController: UIViewController {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         // 遷移先のResultViewControllerで宣言しているプロパティに値を代入して渡す
         resultViewController.imageNo = self.dispImageNo
-        timer.invalidate()
-        timer = nil
+        if timer != nil {
+            timer.invalidate()
+            timer = nil
+        }
+        
+        startreset.setTitle("再生", for: .normal) // 停止中は再生titleを表示
+        nextImageButton.isEnabled = true // 停止中は進むボタンをタップ可能
+        returnImageButton.isEnabled = true // 停止中は戻るボタンをタップ可能
     }
         
     // selector: #selector(updatetimer(_:)) で指定された関数
